@@ -4,4 +4,4 @@ function greet(name) {
     return `Hello ${name}`;
 }
 console.log(greet("Karan"));
-//# sourceMappingURL=basic.js.map
+//# sourceMappingURL=index.js.map
