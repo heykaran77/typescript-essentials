@@ -3,4 +3,3 @@ function greet(name: string): string {
 }
 
 console.log(greet("Karan"));
-console.log(greet(34));

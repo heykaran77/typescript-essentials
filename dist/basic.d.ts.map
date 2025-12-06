@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "basic.d.ts",
+  "sourceRoot": "",
+  "sources": [
+    "../src/basic.ts"
+  ],
+  "names": [],
+  "mappings": ""
+}
