@@ -51,6 +51,8 @@ function serveOrder(item) {
     }
     return `Serving custom coffee: ${item}`;
 }
+console.log(serveOrder({ type: "Java Chip", sugar: 60 }));
+console.log(serveOrder("Frappuchino"));
 function makeCoffee(order) {
     switch (order.type) {
         case "filter":
