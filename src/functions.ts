@@ -34,7 +34,7 @@ console.log(newNames);
 function abc(a: string): void;
 function abc(a: string, b: number): number;
 
-function abc(a: any, b?: any) {
+function abc(a: string, b?: number) {
   if (typeof a === "string" && b === undefined) {
     console.log("Hey this is first fxn");
   } else if (typeof a === "string" && typeof b === "number") {
