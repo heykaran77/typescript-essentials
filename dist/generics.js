@@ -9,4 +9,8 @@ function log(item) {
     console.log(item);
 }
 log("Hello world!");
+function CarDets(obj) {
+    log(JSON.stringify(obj));
+}
+CarDets({ name: "Rubicon", model: "Jeep", key: "abce" });
 //# sourceMappingURL=generics.js.map
