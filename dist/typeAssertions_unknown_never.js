@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let response = "42";
 let numericLength = response.length; // Forcefull assertion
 let bookString = '{"name": "Who was sudeep?"}';
@@ -33,4 +31,5 @@ catch (error) {
 function neverReturns() {
     while (true) { } // Infinite loop
 }
+export {};
 //# sourceMappingURL=typeAssertions_unknown_never.js.map

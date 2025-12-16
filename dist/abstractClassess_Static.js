@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Abstract Class
 class Cooking {
     gas;
@@ -12,4 +10,5 @@ class Cooking {
 // Implementation of the Abstract Class
 class CookPizza extends Cooking {
 }
+export {};
 //# sourceMappingURL=abstractClassess_Static.js.map

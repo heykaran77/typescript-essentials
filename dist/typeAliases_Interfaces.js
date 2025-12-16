@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function makeCoffee(order) {
     console.log(`Making ${order.strong ? "strong" : ""} ${order.type} coffee`);
 }
@@ -14,4 +12,5 @@ class Chai {
 class MyRes {
     status = { ok: true };
 }
+export {};
 //# sourceMappingURL=typeAliases_Interfaces.js.map

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Coffee;
 (function (Coffee) {
     Coffee["Latte"] = "latte";
@@ -9,4 +7,5 @@ function serveCoffee(c) {
     return `serving ${c}`;
 }
 console.log(serveCoffee(Coffee.Espresso));
+export {};
 //# sourceMappingURL=enums.js.map

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Partial
 const updateCoffee = (updates) => {
     console.log("Updating coffee: ", updates);
@@ -25,4 +23,5 @@ publicCar({
     number: 7700,
     //   secretID: "dnsjniefb9dbcdv", Cannot give
 });
+export {};
 //# sourceMappingURL=objects_TS.js.map

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let users = 12; // it accepts both string & numbers
 let food = "Veg";
 // Throws error, cause food only has two options
@@ -14,4 +12,5 @@ for (let order of orders) {
 }
 // if you annotate currentOrder: string, then it gives error cause before it was any & could accept ANY data type, even UNDEFINED.
 console.log(currentOrder);
+export {};
 //# sourceMappingURL=unions&any.js.map

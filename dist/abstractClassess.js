@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Payment {
     amount;
     constructor(amount) {
@@ -25,4 +23,5 @@ payment1.printAmount();
 payment1.pay();
 const payment2 = new UpiPayment(1200);
 payment2.pay();
+export {};
 //# sourceMappingURL=abstractClassess.js.map

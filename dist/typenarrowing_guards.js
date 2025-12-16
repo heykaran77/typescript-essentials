@@ -1,6 +1,4 @@
-"use strict";
 // Type Narrowing
-Object.defineProperty(exports, "__esModule", { value: true });
 function getCoffee(kind) {
     if (typeof kind === "string") {
         // Can perform all operations on strings with confidence
@@ -71,4 +69,5 @@ let data = "Karan";
 if (typeof data === "string") {
     console.log(data.toLowerCase());
 }
+export {};
 //# sourceMappingURL=typenarrowing_guards.js.map

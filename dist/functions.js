@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Functions
 function user(name, age, gender) { }
 // Function Types
@@ -35,4 +33,5 @@ function abc(a, b) {
 abc("Hey");
 const res = abc("Karan", 22);
 console.log(res);
+export {};
 //# sourceMappingURL=functions.js.map

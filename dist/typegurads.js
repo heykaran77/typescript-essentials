@@ -1,6 +1,4 @@
-"use strict";
 // type guards is basically type narrowing
-Object.defineProperty(exports, "__esModule", { value: true });
 function abc(a) {
     // using a. gives all methods common to string & number
     // but doing this
@@ -39,4 +37,5 @@ function switchOff(something) {
 const t1 = new TV();
 const c1 = new Car();
 switchOff(t1);
+export {};
 //# sourceMappingURL=typegurads.js.map

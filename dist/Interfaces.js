@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function showUser(obj) {
     if (obj.age) {
         return console.log(`Hi, ${obj.name}! you're ${obj.age} years old.`);
@@ -14,4 +12,5 @@ function isAdmin(obj) {
 }
 isAdmin({ name: "Karan", admin: true });
 isAdmin({ name: "Kushal", admin: false });
+export {};
 //# sourceMappingURL=interfaces.js.map
