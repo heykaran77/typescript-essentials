@@ -1,22 +1,35 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Card from "./components/Card";
+import Counter from "./components/Counter";
+import type { Coffee } from "./types/types";
+import CoffeeList from "./components/CoffeeList";
+import OrderForm from "./components/OrderForm";
 
 function App() {
-
+  const menu: Coffee[] = [
+    { id: 1, name: "Espresso", price: 24 },
+    { id: 2, name: "Java Chip", price: 40 },
+    {
+      id: 3,
+      name: "Hibiscus",
+      price: 30,
+    },
+  ];
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1>Cards</h1>
+        <Card price={250} name="Espresso" />
+        <Card price={315} name="Java Chips" isSpecial={true} />
+        <Counter />
+        <CoffeeList items={menu} />
+        <OrderForm
+          onSubmitForm={(order) => {
+            console.log(order.name, order.cups);
+          }}
+        />
       </div>
-      <h1>Vite + React</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
